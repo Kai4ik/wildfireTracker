@@ -1,6 +1,7 @@
 import Map from "./components/Map";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import { createGlobalStyle } from "styled-components";
+import { Helmet } from "react-helmet";
 
 const GlobalStyles = createGlobalStyle`
   * {
@@ -17,6 +18,9 @@ const GlobalStyles = createGlobalStyle`
 function App() {
   return (
     <div>
+      <Helmet>
+        <title> Wildfire Tracker </title>
+      </Helmet>
       <GlobalStyles />
       <Map />
     </div>

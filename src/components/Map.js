@@ -29,6 +29,7 @@ const Map = () => {
         return wildfire.categories[0].id === 8;
       });
       setData(wildfires);
+
       setLoadingState(false);
     })();
   }, []);
