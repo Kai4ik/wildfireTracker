@@ -1,6 +1,6 @@
 # Wildfire Tracker
 
-Wildfire Tracker - simple web application that tracks and shows on the map locations of actively burning fires around the world.
+[Wildfire Tracker](https://wildfire-tracking-app.netlify.app/) - simple web application that tracks and shows on the map locations of actively burning fires around the world.
 
 ---
 
