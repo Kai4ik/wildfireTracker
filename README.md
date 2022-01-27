@@ -26,7 +26,7 @@ Before running any scripts, run
 
 > `npm install`
 
-The, in the project directory, you can run:
+Then, in the project directory, you can run:
 
 > `npm start`
 
